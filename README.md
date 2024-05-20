@@ -12,8 +12,6 @@ Esse projeto foi feito com a intenção de resolver um desafio técnico para vag
 
 ## Dependências
 
-```json
-"dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -31,7 +29,7 @@ Esse projeto foi feito com a intenção de resolver um desafio técnico para vag
     "web-vitals": "^2.1.4",
     "yup": "^1.4.0"
     
-}
+
 ## Como Instalar e Usar
 
 Com o repositório na máquina, o usuário deve ter uma IDE, Node e JavaScript instalado. Com isso instalado, deve ir até o terminal e digitar npm start.
