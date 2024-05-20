@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# B2BIT Sistema de Login
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
 
-## Available Scripts
+Esse projeto foi feito com a intenção de resolver um desafio técnico para vaga de desenvolvedor front-end react. Consiste em um sistema de login que solicita ao usuário o email e senha. Ao entrar com email e senha, o sistema valida as informações em uma API, e caso os dados constem na API, retorna um token que dá acesso à página de perfil do usuário (home). Na página de perfil é mostrado a foto do usuário, seu nome e seu email de acordo com o banco de dados. O token é guardado no localStorage que não permite que o usuário seja deslogado ao recarregar a página, deslogando apenas se apertar no botão logout que consta na página home no canto superior direito, que desloga o usuário e redireciona para página de login.
 
-In the project directory, you can run:
+## Tecnologias Utilizadas
 
-### `npm start`
+- React com TypeScript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Dependências
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```json
+"dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.97",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "axios": "^1.6.8",
+    "formik": "^2.4.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
+    
+}
+## Como Instalar e Usar
 
-### `npm test`
+Com o repositório na máquina, o usuário deve ter uma IDE, Node e JavaScript instalado. Com isso instalado, deve ir até o terminal e digitar npm start.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contribuições
+Até o momento, não há diretrizes específicas para contribuições. Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

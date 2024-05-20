@@ -1,0 +1,111 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100vw;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.conteudo-pagina{
+    background-color: #f1f5f9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.botao-logout{
+    background-color: #02274F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6.33px;
+    cursor: pointer;
+    width: 277px;
+    height: 44px;
+    margin: 13px 34px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+
+.card-profile{
+    background-color: #FFFFFF;
+    width: 356px;
+    height: 315px;
+    margin-top: 95px;
+    border-radius: 16px;
+}
+.photo-profile{
+    margin-top: 30px;
+    gap: 19px;
+}
+.photo-profile h2{
+    font-size: 0.75rem;
+    font-family: "nunito", sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.photo-profile img{
+    width: 58px;
+    height: 56px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 10px auto;
+    display: block;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+}
+li h2{
+    margin: 0;
+    font-size: 14px;
+    font-family: "nunito", sans-serif;
+    font-weight:normal;  
+    margin-left: 16px; 
+}
+li span{
+    font-size: 0.875rem;
+    font-family: "nunito", sans-serif;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.user-data{
+    width:280px;
+    height: 44px;
+    background-color: #f1f1f1;
+    margin: 5px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.user-data p{
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: "nunito", sans-serif;
+    line-height: 12px;
+}
+
+

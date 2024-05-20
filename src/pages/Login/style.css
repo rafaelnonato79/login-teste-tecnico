@@ -1,0 +1,84 @@
+
+
+.card-login{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 438px;
+    height: 534px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    border-radius: 18px;
+    margin:161px 0;
+}
+
+.card-login h1{
+    margin-top: 55px;
+}
+.card-login img{
+    width: 295px;
+    height: 116px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25.88px;
+    
+}
+
+input{
+    padding: 10px;
+    border:none;
+    border-radius: 9px;
+    background-color: #F1F1F1;
+    padding: 18px, 18px, 20.25px,18px;
+    height: 35px;
+    font-size: 0.984rem;
+    font-family: "Nunito", sans-serif;
+    gap: 0.844rem;
+}
+
+.btn-login{
+    background-color: #02274F;
+    color: #FFFFFF;
+    border-radius: 9px;
+    height: 54px;
+    margin-top: 20px;
+    font-size:1.125rem;
+    font-family: "Nunito", sans-serif;
+    cursor: pointer;
+}
+
+label{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    align-self: flex-start;
+    font-size: 1.125rem;
+    line-height: 22.5px;
+    color: #262626;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    
+}
+
+
+.erro-login {
+    color: red;
+    font-size: 0.938rem;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.mensagem{
+    font-size: small;
+}
+
+@media screen and (max-width: 600px){
+    .card-login{
+        width:80%;
+    }
+
+    .card-login img{
+        width: 80%;
+        height: auto;
+    }
+}
