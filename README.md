@@ -1,4 +1,4 @@
-# B2BIT Sistema de Login
+# B2BIT Sistema de Login - Teste técnico
 
 ## Descrição do Projeto
 
