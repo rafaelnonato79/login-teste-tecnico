@@ -31,8 +31,19 @@ Esse projeto foi feito com a intenção de resolver um desafio técnico para vag
     
 
 ## Como Instalar e Usar
-
-Com o repositório na máquina, o usuário deve ter uma IDE, Node e JavaScript instalado. Com isso instalado, deve ir até o terminal e digitar npm start.
+- Instalação:
+    * Ter um IDE instalada no computador.
+    * Caso não tenha, instalar o Node.js e npm.
+    * Fazer uma cópia do repositório
+    * Abrir o terminal da IDE e digitar "npm start" para dá inicio ao aplicativo.
+- Como usar:
+    * A primeira página é a de Login, deve ser inserido email e senha.
+    * Para ter sucesso no login, por favor inserir os seguintes dados:
+          email: cliente@youdrive.com
+          senha: password
+    * Com login efetudo será redirecionado para página home com dados do usuário
+    * Para fazer logout, deve se clica no botão com o nome "logout" no canto superior direito.  
+    
 
 ## Contribuições
 Até o momento, não há diretrizes específicas para contribuições. Sinta-se à vontade para abrir issues ou enviar pull requests.
