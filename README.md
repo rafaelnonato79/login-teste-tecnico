@@ -1,5 +1,7 @@
 # B2BIT Sistema de Login - Teste técnico
 
+##link para acesso: https://login-teste-tecnico.vercel.app/
+
 ## Descrição do Projeto
 
 Esse projeto foi feito com a intenção de resolver um desafio técnico para vaga de desenvolvedor front-end react. Consiste em um sistema de login que solicita ao usuário o email e senha. Ao entrar com email e senha, o sistema valida as informações em uma API, e caso os dados constem na API, retorna um token que dá acesso à página de perfil do usuário (home). Na página de perfil é mostrado a foto do usuário, seu nome e seu email de acordo com o banco de dados. O token é guardado no localStorage que não permite que o usuário seja deslogado ao recarregar a página, deslogando apenas se apertar no botão logout que consta na página home no canto superior direito, que desloga o usuário e redireciona para página de login.
